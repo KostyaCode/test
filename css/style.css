@@ -1,0 +1,173 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/*Обнуление размеров блока*/
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*Удаление обводок линий у некоторых браузеров*/
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+/*Уравнение шрифтов и элементов для разных браузеров*/
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/*Наследование семейства шрифта*/
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*Обнуление заголовков*/
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+background-image: url(../img/bg.png);
+}
+
+.content1 {
+	margin: auto;
+	width: 1191px;
+	height: 1230px;
+	background-image: url(../img/beck2.png);
+	background-repeat: no-repeat;
+}
+.trevel {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #273D46;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	width: 67;
+	height: 10;
+	opacity: 0.6;
+	margin: 63px 594px 0px 530px;
+}
+
+h1{
+	font-family: 'Times New Roman', Times, serif;
+	opacity: 1;
+	color: #273D46;
+	font-size: 36px;
+	margin: 28px 264px 0px 206px;
+	width: 721px;
+	height: 37.5px;
+	white-space: nowrap;
+}
+
+h1.sit{
+	font-family: 'Times New Roman', Times, serif;
+	opacity: 1;
+	color: #273D46;
+	font-size: 36px;
+	margin: 10px 264px 0px 206px;
+	width: 721px;
+	text-indent: 220px;
+	height: 37.5px;
+}
+.image{
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	margin: 67px 212px 0px 158px;
+	background-repeat:no-repeat;
+	background-color: white;
+	background-image: url(../img/man.png);
+	background-position: center;
+	width: 841px;
+	height: 561px;
+}
+
+.text1{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: #273D46;	
+	margin: 97px 262px 62px 206px;
+	width: 736px;
+	height: 257px;
+	opacity: 0.8;
+	line-height: 38px;
+	}
+
+li{	
+	background-image: url(../icons/check.png);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 652px 0px 206px;
+	font-size: 20px;
+	width: 458px;
+	padding: 0px 0px 0px 33px;
+	line-height: 30px;
+}
+
+li.li1 {
+	color:#273D46;
+	opacity: 1;
+}
+
+.li2 {
+	color: #80B7B3;
+	opacity: 1;
+	font-style: italic;
+}
+.li3 {
+	color: #273D46;
+	opacity: 1;
+	font-weight: 700;
+}
+.li4{
+	color: #BBBEBF;
+	text-decoration: line-through;
+}
+
+.button{
+
+	margin-top: 59px;
+	margin-left: 206px;
+	margin-bottom: 100px;
+	display: inline-block;
+	background-color: rgb(128, 183, 178);
+	border-radius: 24px;
+	box-shadow: 0 6px 4px rgba(214, 222, 222, 1);
+	height: 44px;
+	width: 199px;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 17px 0px 17px 30px;
+	box-shadow: 0 6px 40px rgba(128, 183, 178, 1);
+	text-transform: uppercase;
+	letter-spacing: 2.6px;
+	}
+
+	.button span{
+		background: url(../icons/str.png) no-repeat right;
+		padding: 0px 32px 0px 0px;
+	}
+
